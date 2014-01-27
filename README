@@ -1,0 +1,35 @@
+Name: Xiaoyun Ma
+Student Number: 20295795
+User-id: xyma
+Assignment: A5
+
+The final executable was compiled on this machine: gl23
+
+How to invoke my program: 
+1. the executable must be in the same directory as pc.lua
+2. go into bash, type:
+	bash
+3. setup LD_LIBRARY_PATH variable and run the game, type:
+	LD_LIBRARY_PATH=./fmod/api/lib ./game
+extra note: on some computers you need to specify the full path, ie starting with root '/',
+if you were run this program on a 32 bit computer you need a different library for sound
+
+How to use my extra features: use arrow keys (left, right, up) to control the game,
+type 'n' for new game, type 'q' to quit, type 's' to show skybox only
+
+I have created the following data files, which are in the data directory:none
+
+
+My program assumes the following: 
+
+Objectives:
+1. alpha blending
+2. projected shadow
+3. reflection of the wall
+4. texture mapping
+5. skybox
+6. animation at the end (after you got bombed)
+7. particle systems for the tip of the bomb
+8. 3d modeling of the puppet and the building
+9. collision detection
+10. background music
